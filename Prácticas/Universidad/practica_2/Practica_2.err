@@ -1,0 +1,47 @@
+/COM,ANSYS RELEASE 2019 R1           BUILD 19.3      UP20181204       10:22:34
+
+ *** WARNING ***                         CP =       3.188   TIME= 10:33:04
+ Arc of radius 3.E-02 not recommended between keypoints 7 and 6.         
+
+ *** WARNING ***                         CP =       3.422   TIME= 10:35:07
+ Arc of radius 3.E-02 not recommended between keypoints 7 and 6.         
+
+ *** WARNING ***                         CP =       7.906   TIME= 10:42:37
+ POST1 is not a recognized POST1 command, abbreviation, or macro.        
+  This command will be ignored.                                          
+
+ *** WARNING ***                         CP =      23.031   TIME= 11:09:41
+ Boolean operation involves meshed Area 1.  This operation may create    
+ new entities without elements and could contaminate the database.  The  
+ recommended approach is to perform Boolean operations only on unmeshed  
+ entities.                                                               
+
+ *** WARNING ***                         CP =      23.047   TIME= 11:09:42
+ Boolean operation involves meshed Area 2.  This operation may create    
+ new entities without elements and could contaminate the database.  The  
+ recommended approach is to perform Boolean operations only on unmeshed  
+ entities.                                                               
+
+ *** WARNING ***                         CP =      23.047   TIME= 11:09:42
+ Boolean operation involves meshed Area 3.  This operation may create    
+ new entities without elements and could contaminate the database.  The  
+ recommended approach is to perform Boolean operations only on unmeshed  
+ entities.                                                               
+
+ *** WARNING ***                         CP =      23.047   TIME= 11:09:42
+ Boolean operation involves meshed Area 4.  This operation may create    
+ new entities without elements and could contaminate the database.  The  
+ recommended approach is to perform Boolean operations only on unmeshed  
+ entities.                                                               
+
+ *** WARNING ***                         CP =      26.906   TIME= 11:15:31
+ The requested NL data is not available.  The PLNS command is ignored.   
+
+ *** WARNING ***                         CP =      26.906   TIME= 11:15:31
+ Scaling factor undefined - perform PLDISP to establish default value.   
+
+ *** WARNING ***                         CP =      27.391   TIME= 11:15:43
+ The requested NL data is not available.  The PLNS command is ignored.   
+
+ *** WARNING ***                         CP =      27.391   TIME= 11:15:43
+ Scaling factor undefined - perform PLDISP to establish default value.   
