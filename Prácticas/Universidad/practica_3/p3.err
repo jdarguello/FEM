@@ -1,0 +1,12 @@
+/COM,ANSYS RELEASE 2019 R1           BUILD 19.3      UP20181204       11:29:43
+/COM,ANSYS RELEASE 2019 R1           BUILD 19.3      UP20181204       11:31:43
+
+ *** WARNING ***                         CP =       3.859   TIME= 11:31:43
+ The EPLO command cannot be executed.  The selected elements cannot be   
+ displayed by PowerGraphics.  To correct this situation, select          
+ different elements or turn off PowerGraphics.                           
+
+ *** WARNING ***                         CP =       4.984   TIME= 11:36:17
+ The EPLO command cannot be executed.  The selected elements cannot be   
+ displayed by PowerGraphics.  To correct this situation, select          
+ different elements or turn off PowerGraphics.                           
