@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=latex 2019.5.25)  30 AUG 2019 20:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=latex 2019.5.25)  9 SEP 2019 20:42
 entering extended mode
 **\scrollmode
 
@@ -77,7 +77,7 @@ File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
 *\usepackage{graphicx}
 
 *\begin{document}
-(texput.aux)
+No file texput.aux.
 \openout1 = `texput.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 0.
@@ -104,6 +104,27 @@ LaTeX Font Info:    ... okay on input line 0.
 *\let\ASYshape\f@shape%
 
 *\makeatother%
+
+*\fontsize{12}{14.4}\selectfont
+
+*
+(Please type a command or say `\end')
+*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
+
+*
+(Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{0}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(5.87494pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.73332pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
 
 *\fontsize{12}{14.4}\selectfont
 
@@ -156,27 +177,6 @@ LaTeX Font Info:    ... okay on input line 0.
 *
 (Please type a command or say `\end')
 *\setbox\ASYbox=\hbox{3}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(5.87494pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(7.73332pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
-*\fontsize{12}{14.4}\selectfont
-
-*
-(Please type a command or say `\end')
-*\usefont{\ASYencoding}{\ASYfamily}{\ASYseries}{\ASYshape}%
-
-*
-(Please type a command or say `\end')
-*\setbox\ASYbox=\hbox{4}
 
 *
 (Please type a command or say `\end')
@@ -224,6 +224,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 *
 (Please type a command or say `\end')
+*\setbox\ASYbox=\hbox{0}
+
+*
+(Please type a command or say `\end')
+*\immediate\write16{>dim(\the\wd\ASYbox)dim}
+>dim(5.87494pt)dim
+
+*\immediate\write16{>dim(\the\ht\ASYbox)dim}
+>dim(7.73332pt)dim
+
+*\immediate\write16{>dim(\the\dp\ASYbox)dim}
+>dim(0.0pt)dim
+
 *\setbox\ASYbox=\hbox{1}
 
 *
@@ -263,19 +276,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 *\immediate\write16{>dim(\the\dp\ASYbox)dim}
 >dim(0.0pt)dim
 
-*\setbox\ASYbox=\hbox{4}
-
-*
-(Please type a command or say `\end')
-*\immediate\write16{>dim(\the\wd\ASYbox)dim}
->dim(5.87494pt)dim
-
-*\immediate\write16{>dim(\the\ht\ASYbox)dim}
->dim(7.73332pt)dim
-
-*\immediate\write16{>dim(\the\dp\ASYbox)dim}
->dim(0.0pt)dim
-
 *\setbox\ASYbox=\hbox{$x$}
 
 *
@@ -297,8 +297,8 @@ End of file on the terminal!
 
  
 Here is how much of TeX's memory you used:
- 587 strings out of 492946
- 7429 string characters out of 3135539
+ 584 strings out of 492946
+ 7175 string characters out of 3135539
  64958 words of memory out of 3000000
  4547 multiletter control sequences out of 15000+200000
  6376 words of font info for 23 fonts, out of 3000000 for 9000
