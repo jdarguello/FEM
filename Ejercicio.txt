@@ -1,0 +1,1 @@
+Desarrollar una práctica modal en la que se calculen los eigenvalores y eigenvectores
