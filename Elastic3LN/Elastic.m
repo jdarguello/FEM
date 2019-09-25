@@ -92,11 +92,11 @@
 % Dibujo de la soluci�n  nodal (3D)
 % ===========================================
 
- %clf
- %view(-37.5,30);
- %title('Potencial');
- %d_sol3d(Nel,NNpe,XY,Top,Sol);
- %pause;
+%  clf
+%  view(-37.5,30);
+%  title('Potencial');
+%  d_sol3d(Nel,NNpe,XY,Top,Sol);
+%  pause;
       
 % Dibujo de la soluci�n  nodal
 % ===========================================

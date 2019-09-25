@@ -1,3 +1,4 @@
 Desarrollar una práctica modal en la que se calculen los eigenvalores y eigenvectores
+con elementos cuadriláteros lineales en coordenadas locales. 
 
-Kevin sue
+Un punto de integración.
