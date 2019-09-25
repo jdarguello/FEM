@@ -1,5 +1,5 @@
-settings.outformat="pdf";
-unitsize(1.2cm);
+settings.outformat="png";
+unitsize(1cm);
 
 //Tamaño del rectángulo
 int a = 10*2;
