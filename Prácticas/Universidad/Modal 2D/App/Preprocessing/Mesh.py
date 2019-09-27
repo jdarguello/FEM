@@ -40,7 +40,7 @@ class Malla(Geo):
 			- dom 	->	Dominio o figura a mallar.
 			- Eltype ->	Tipo de elemento.
 	"""
-	def __init__(self, dom, Eltype = 'Cuad'):
+	def __init__(self, dom=True, Eltype = 'Cuad'):
 		pass
     
 

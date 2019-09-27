@@ -35,6 +35,9 @@ class Geo():
 		self.ax.set(xlim=(minim,maxim), ylim=(minim,maxim))
 		plt.show()
 
+		#GUARDAR
+		self.Save()
+
 	def Rectangle(self, a, h,c='black'):
 		self.ax.plot([0,a], [0,0], c)
 		self.ax.plot([0,a], [h,h], c)

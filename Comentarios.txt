@@ -1,0 +1,14 @@
+STL
+
+Rápido y versátil... pero limita el tipo de elementos a triángulos únicamente, y ni hablar de los nodos y
+su nomenclatura (en realidad, ya le cogí el tiro a la parte nodal :) ).
+
+IGES
+
+A diferencia del STL, el archivo es difícil de leer. Aunque creo que sigue siendo la mejor opción,
+lo que me interesa son los contornos.
+
+Por ejemplo:
+
+El esquema de un rectángulo en STL sería dos triángulos unidos. En IGES debería ser simplemente
+4 puntos (no?).
