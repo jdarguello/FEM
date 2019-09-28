@@ -5,7 +5,7 @@ class Geo():
 		OBJETIVO:
 			Desarrolla la geometría del problema.
 	"""
-	def __init__ (self, dic):
+	def __init__ (self, dic, local=False):
 		#Datos
 		a = dic['a']['Valor']
 		h = dic['h']['Valor']
@@ -33,10 +33,16 @@ class Geo():
 		minim = -maxim/10
 		maxim -= minim
 		self.ax.set(xlim=(minim,maxim), ylim=(minim,maxim))
-		plt.show()
+		if local:
+			plt.show()
 
 		#GUARDAR
-		self.Save()
+		#self.Save(a,h,r,local)
+
+	def Save(self, a,h,r,local):
+		if local:
+			with open('GeoData.txt', 'w+') as file:
+				pass
 
 	def Rectangle(self, a, h,c='black'):
 		self.ax.plot([0,a], [0,0], c)
@@ -75,4 +81,4 @@ if __name__ == '__main__':
 	        }
 	    }
 	}
-	Geo(data['Geometría'])
+	Geo(data['Geometría'], True)
