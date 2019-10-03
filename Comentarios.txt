@@ -12,3 +12,5 @@ Por ejemplo:
 
 El esquema de un rectángulo en STL sería dos triángulos unidos. En IGES debería ser simplemente
 4 puntos (no?).
+
+Leer - Matriz de rotación
