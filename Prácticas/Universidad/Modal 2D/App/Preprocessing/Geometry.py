@@ -7,9 +7,8 @@ class Geo():
 	"""
 	def __init__ (self, dic, local=False):
 		#Datos
-		a = dic['a']['Valor']
-		h = dic['h']['Valor']
-		r = dic['r']['Valor']
+		a = dic['W']['Valor']
+		h = dic['H']['Valor']
 		#FIGURA
 		fig = plt.figure()
 		self.ax = fig.add_subplot(111)
@@ -23,8 +22,6 @@ class Geo():
 		#Rectángulo
 		c = 'black'
 		self.Rectangle(a,h,c)
-		#Círculo
-		self.Circle(a,h,r,c)
 		#Mayor distancia
 		if a >= h:
 			maxim = a
