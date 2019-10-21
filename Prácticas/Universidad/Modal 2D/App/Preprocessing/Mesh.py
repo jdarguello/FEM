@@ -15,6 +15,7 @@ class Element():
 		Desarrolla el dibujo del elemento
 	"""
 	def esquemaN(self, Es, nodos, color = 'black'):
+		self.nodos = nodos
 		Es.scatter(nodos[:, [0]], nodos[:, [1]], c=color)
 	def esquemaEL(self, Es, nodos, color = 'black'):
 		for i in range(1,len(nodos)):
@@ -52,7 +53,12 @@ class Element():
 		text = text[:-2] + ') VALUES (' + text2
 		cursor.execute(text)
 		con.commit()
+	def Guardar(self, nodos):
+		text = """
+				INSERT INTO nodes
+				"""
 
+            
 class Cuad4(Element):
 	"""
 		Elemento cuadrangular 2D de 4 nodos.
@@ -162,8 +168,8 @@ class Malla(DB, Geo):
 			super(DB, self).__init__(dom)
 		#Dibujo de los elementos
 		coord = [0,0]
-		for x in range(int(dom['W']['Valor']/El[0])):
-			for y in range(int(dom['H']['Valor']/El[1])):
+		for x in range(int(dom['a']['Valor']/El[0])):
+			for y in range(int(dom['h']['Valor']/El[1])):
 				if Eltype == 'Cuad4':
 					Cuad4(El, self.ax, coord, db=[self.con, self.cursor])
 				elif Eltype == 'Cuad8':
