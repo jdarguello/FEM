@@ -1,0 +1,15 @@
+/tmp/tmpm4e_dzk5/dolfin_expression_50416e7701f21746e506a89b9ed70b78.cpp: In member function ‘virtual void dolfin::dolfin_expression_50416e7701f21746e506a89b9ed70b78::eval(Eigen::Ref<Eigen::Matrix<double, -1, 1> >, Eigen::Ref<const Eigen::Matrix<double, -1, 1> >) const’:
+/tmp/tmpm4e_dzk5/dolfin_expression_50416e7701f21746e506a89b9ed70b78.cpp:63:43: error: ‘pot’ was not declared in this scope
+           values[0] = 4*exp(-pow(beta,2)*(pot(x[0],2) + pow(x[1]-R0,2)));
+                                           ^~~
+/tmp/tmpm4e_dzk5/dolfin_expression_50416e7701f21746e506a89b9ed70b78.cpp:63:43: note: suggested alternative: ‘pow’
+           values[0] = 4*exp(-pow(beta,2)*(pot(x[0],2) + pow(x[1]-R0,2)));
+                                           ^~~
+                                           pow
+/tmp/tmpm4e_dzk5/dolfin_expression_50416e7701f21746e506a89b9ed70b78.cpp: In member function ‘virtual double dolfin::dolfin_expression_50416e7701f21746e506a89b9ed70b78::get_property(std::__cxx11::string) const’:
+/tmp/tmpm4e_dzk5/dolfin_expression_50416e7701f21746e506a89b9ed70b78.cpp:75:11: warning: this ‘if’ clause does not guard... [-Wmisleading-indentation]
+           if (name == "beta") return beta;          if (name == "R0") return R0;
+           ^~
+/tmp/tmpm4e_dzk5/dolfin_expression_50416e7701f21746e506a89b9ed70b78.cpp:75:53: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the ‘if’
+           if (name == "beta") return beta;          if (name == "R0") return R0;
+                                                     ^~
