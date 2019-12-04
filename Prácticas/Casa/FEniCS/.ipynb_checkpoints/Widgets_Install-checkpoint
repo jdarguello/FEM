@@ -1,0 +1,31 @@
+ipympl
+pip install ipympl
+
+itkwidgets
+pip install itkwidgets
+pip install itk-io
+jupyter labextension install @jupyter-widgets/jupyterlab-manager jupyter-matplotlib jupyterlab-datawidgets itkwidgets
+
+PVGeo
+pip install PVGeo
+
+PyVista
+pip install pyvista
+
+Ejemplo FEniCS - CAD - Mesh
+https://en.wikiversity.org/wiki/CAD_to_FEniCS_example
+
+numpy-stl
+pip install numpy-stl
+
+pygalmesh - usa formato vtu
+sudo apt install libcgal-dev libeigen3-dev
+pip3 install -U pygalmesh
+pip3 install meshio
+
+trimesh
+pip install trimesh
+
+Openscad
+sudo add-apt-repository ppa:openscad/releases
+sudo apt-get install openscad
